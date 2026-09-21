@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 sns.set_style('darkgrid')
 
 rand_seed=1024
-data = pd.read_csv('../data/flights.csv')
+data = pd.read_csv('~/tmp/flights.csv')
 # cols: date,flight_id,route,aircraft_type,scheduled_hour,crew_duty_hours,weather_forecast_18h,
 #       weather_actual,atc_slot_delay_min,delayed
 # print(data.isna().sum())

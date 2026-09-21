@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 rand_seed=1024
 target_col="delayed"
 
-def load_data(data_file='../data/flights.csv', target_col=target_col, rand_seed=rand_seed):
+def load_data(data_file='~/tmp/flights.csv', target_col=target_col, rand_seed=rand_seed):
     data = pd.read_csv(data_file)
     # contains cols: date,flight_id,route,aircraft_type,scheduled_hour,crew_duty_hours, <br/>
     #                weather_forecast_18h,weather_actual,atc_slot_delay_min,delayed  <br/>
